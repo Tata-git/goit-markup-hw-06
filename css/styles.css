@@ -745,8 +745,15 @@ margin-top: -30px;
 }*/
 .modal-form-wrapper {
   position: relative;
+  display: block;
 }
-
+.modal-form-input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--accent-color);
+}
 
 /*===========END MODAL WINDOW==========*/
 
